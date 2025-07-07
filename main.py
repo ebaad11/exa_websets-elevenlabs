@@ -108,7 +108,7 @@ def main():
     sender = GmailEmailSender()
     
     # Get recipient email from environment or use default
-    recipient_email = os.getenv('RECIPIENT_EMAIL', 'ebaadforrandomstuff@gmail.com')
+    recipient_email = os.getenv('RECIPIENT_EMAIL', 'test@gmail.com')
     print(f"Using recipient email: {recipient_email}")
     
     # Note: The sender email is already set from environment variables in the GmailEmailSender class
